@@ -1,11 +1,12 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function () {
 	return (
 		<div className="xl:container mx-auto">
 			<div className="px-8 py-3.5 flex gap-x-8 items-center">
 				<div className="grow-0 shrink-0 hidden md:block">
-					<img src="/assets/icons/logos.svg" alt="logo" />
+					<Link href="/"><img src="/assets/icons/logos.svg" alt="logo" /></Link>
 				</div>
 				<div className="grow shrink flex justify-start md:justify-end items-center text-[20px] flex-nowrap overflow-hidden">
 					<div className="lg:px-6 md:px-4 flex items-center my-2 round">
