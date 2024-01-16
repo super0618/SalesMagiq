@@ -25,7 +25,6 @@ export default function () {
 							<div className="relative mt-3 mb-6">
 								<input
 									placeholder="Please input here."
-									value="Aiden Roy"
 									className="py-2 pl-8 rounded-lg border-gray-300 border w-full"
 								/>
 								<div className="absolute top-0 left-2 bottom-0 grid place-items-center">
